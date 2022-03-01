@@ -1,23 +1,3 @@
-variables
+A mern stack ecommerce website
+https://ecommere-shop.herokuapp.com/
 
-PORT =
-
-MONGO_DB_URL =
-
-JWT_SECRET =
-
-JWT_EXPIRE_DATE =
-
-COOKIE_EXPIRE_DATE =
-
-CLOUDINARY_NAME =
-
-CLOUDINARY_API_KEY =
-
-CLOUDINARY_API_SECRET =
-
-FRONTEND_URL =
-
-STRIPE_API_KEY =
-
-STRIPE_SECRET_KEY =

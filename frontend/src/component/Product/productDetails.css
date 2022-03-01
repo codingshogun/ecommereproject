@@ -1,0 +1,186 @@
+.wrapper {
+  min-height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+}
+
+.ProductDetails {
+  width: 100vw;
+  max-width: 100%;
+  padding: 3vmax;
+  box-sizing: border-box;
+  display: flex;
+}
+.left {
+  flex: 2;
+}
+.left img {
+  width: 100%;
+  border-radius: 1rem;
+  height: 100%;
+}
+.right {
+  flex: 1;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.productDetailsName {
+  letter-spacing: 4px;
+  margin: 1rem 0;
+  font-size: 3vmax;
+}
+.reviews {
+  font-size: 1rem;
+}
+.productDetailsPrice {
+  margin: 1rem 0;
+  letter-spacing: 5px;
+  font-size: 2vmax;
+}
+.plusminus {
+  width: 25px;
+  text-align: center;
+  outline: none;
+  background-color: teal;
+  border-radius: 3px;
+  font-size: 20px;
+  border: none;
+  margin: 3px;
+  color: white;
+}
+.addToCart input {
+  width: 20px;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-family: cursive;
+  text-align: center;
+}
+.addToCartButton {
+  display: block;
+  width: max-content;
+  padding: 0.5rem;
+  font-family: monospace;
+  background-color: white;
+  outline: none;
+  border: none;
+  margin-top: 5px;
+  border-radius: 2px;
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
+.stock {
+  margin-top: 3px;
+}
+.productDescription {
+  padding: 3vmax;
+}
+.productDescription h3 {
+  color: teal;
+  font-size: 2rem;
+  letter-spacing: 8px;
+  margin: 0;
+}
+.productDescription p {
+  margin-top: 2px;
+  color: white;
+  letter-spacing: 3px;
+}
+
+.reviewsSection {
+  padding: 3vmax;
+}
+.reviewsSection h3 {
+  color: teal;
+  letter-spacing: 3px;
+}
+.review {
+  display: flex;
+  flex-direction: column;
+}
+.addToCart > input {
+  width: 40px;
+}
+.reviewCard {
+  width: 200px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+.userDetail {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.reviewCard img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.reviewCard p {
+  display: inline;
+  font-weight: bold;
+}
+.stars {
+  margin: 0;
+}
+.noReviewsYes {
+  background-color: white;
+  width: max-content;
+  padding: 1rem;
+  border-radius: 3px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+.reviewSubmitButton {
+  background-color: teal;
+  outline: none;
+  color: white;
+  width: max-content;
+  padding: 1vmax;
+  border: none;
+  cursor: pointer;
+}
+
+.submitDialog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 750px) {
+  .ProductDetails {
+    padding: 1vmax;
+  }
+  .productDescription {
+    padding: 1vmax;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .ProductDetails {
+    padding: 1vmax;
+    flex-direction: column;
+  }
+  .productDescription {
+    padding: 1vmax;
+  }
+  .reviewsSection {
+    padding: 1vmax;
+  }
+  .productDetailsName {
+    letter-spacing: 4px;
+    margin: 1rem 0;
+    font-size: 5vmax;
+  }
+  .productDetailsPrice {
+    margin: 1rem 0;
+    letter-spacing: 5px;
+    font-size: 4vmax;
+  }
+}

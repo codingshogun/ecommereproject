@@ -1,0 +1,79 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+svg {
+  margin: 0 2px;
+}
+.leftNav {
+  flex: 5;
+  margin-left: 1rem;
+}
+
+.rightNav {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 1rem;
+}
+.cart {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 2px;
+}
+.dropDownTitle {
+  text-align: center;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.user {
+  position: relative;
+}
+
+.dropDownList {
+  position: absolute;
+  right: 0.1rem;
+  width: 100%;
+  width: max-content;
+  display: none;
+  z-index: 1;
+  background-color: white;
+  color: black;
+  margin: 0;
+}
+.dropDownList > p {
+  margin: 0;
+  padding: 1rem;
+}
+
+.dropDownList > p:hover {
+  background-color: teal;
+  color: white;
+}
+
+.user:hover > .dropDownList {
+  display: block;
+}
+
+.speedial {
+  position: absolute;
+  right: 2vmax;
+  top: 8vmax;
+}
+.speedialIcon {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}

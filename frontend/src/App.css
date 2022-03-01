@@ -1,0 +1,7 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  scroll-behavior: smooth;
+  min-height: 100vh;
+}

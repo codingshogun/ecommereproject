@@ -1,0 +1,113 @@
+.productsHeading {
+  margin: 1vmax auto;
+  width: max-content;
+  border-bottom: 1px solid teal;
+  padding: 1vmax;
+  color: teal;
+  text-align: center;
+}
+.productsRight {
+  flex: 6;
+}
+.productsLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5vmax;
+  justify-content: center;
+}
+
+.paginationBox {
+  display: flex;
+  justify-content: center;
+  margin: 5vmax;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.page-item {
+  color: white;
+  list-style: none;
+  border: 1px solid white;
+  padding: 1vmax 1.5vmax;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.page-link {
+  text-decoration: none;
+  font: 300 0.7vmax;
+  transition: all 0.3s;
+}
+.page-item:hover {
+  background-color: teal;
+  border: none;
+}
+.pageItemActive {
+  opacity: 0.5;
+}
+.MuiSlider-rail {
+  color: white;
+}
+.MuiSlider-track {
+  color: teal;
+}
+.MuiSlider-thumb {
+  color: teal;
+}
+.productsWrapper {
+  display: flex;
+}
+.filterBox {
+  padding: 1rem;
+  display: flex;
+
+  flex-direction: column;
+  color: white;
+  width: 100%;
+}
+.categoryBox {
+  padding: 0;
+  margin-top: 1vmax;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.category-link {
+  list-style: none;
+  margin: 0.5rem;
+  background-color: teal;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  width: max-content;
+}
+.category-link:hover {
+  opacity: 0.6;
+}
+.filterBox > fieldset {
+  border: none;
+}
+
+@media screen and (max-width: 800px) {
+  .productsWrapper {
+    flex-direction: column;
+  }
+  .filterBox {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .categoryBox {
+    flex-direction: row;
+  }
+}

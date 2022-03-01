@@ -1,0 +1,151 @@
+.loginSignUpContainer {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.loginSignUpBox {
+  background-color: black;
+  width: 95%;
+  max-width: 450px;
+  height: 70vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 1rem;
+  color: white;
+  overflow: hidden;
+}
+
+.loginSignUpToggle {
+  display: flex;
+  height: max-content;
+}
+.loginSignUpToggle > p {
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  transition: all 0.3s;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  margin: 1vmax 0;
+  font-family: monospace;
+  margin-top: 1.3vmax;
+}
+.loginSignUpToggle > p:hover {
+  color: teal;
+}
+
+.loginSignUpBox > div > button {
+  background-color: teal;
+  height: 3px;
+  width: 50%;
+  border: none;
+  transition: all 0.5s;
+}
+.loginForm,
+.signUpForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 2vmax;
+  justify-content: space-evenly;
+  height: 70%;
+  transition: all 0.5s;
+}
+.signUpForm {
+  transform: translateX(-100%) translateY(-100%);
+}
+.loginForm > div,
+.signUpForm > div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.loginForm > div > input,
+.signUpForm > div > input {
+  padding: 1vmax 4vmax;
+  padding-right: 1vmax;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid white;
+  background-color: whitesmoke;
+  border-radius: 1rem;
+  font: 300 0.9vmax;
+  outline: none;
+}
+.loginForm > div > svg,
+.signUpForm > div > svg {
+  position: absolute;
+  transform: translateX(1vmax);
+  font-size: 1.6vmax;
+  color: black;
+}
+
+.loginForm > a {
+  color: white;
+  align-self: flex-end;
+  transition: all 0.5s;
+}
+.loginForm > a:hover {
+  color: teal;
+}
+#registerImage > img {
+  width: 3vmax;
+  height: 3vmax;
+  border-radius: 100%;
+  border: 2px solid white;
+  margin-right: 4px;
+}
+#registerImage > input {
+  display: flex;
+  padding: 0;
+  outline: none;
+  border: none;
+  padding: 1vmax 1vmax;
+  padding-right: 1vmax;
+}
+#registerImage > input::file-selector-button {
+  cursor: pointer;
+  width: 100%;
+  z-index: 2;
+  border-radius: 1rem;
+  border: none;
+  background-color: whitesmoke;
+}
+.loginBtn,
+.signUpBtn {
+  border: none;
+  outline: none;
+  background-color: teal;
+  color: white;
+  font-size: 1rem;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.5s;
+  padding: 1rem 0;
+}
+.loginBtn:hover,
+.signUpBtn:hover {
+  opacity: 0.6;
+}
+
+.shiftToNeutral {
+  transform: translateX(0%);
+}
+.shiftToLeft {
+  transform: translateX(100%);
+}
+
+.shiftToNeutralForm {
+  transform: translateX(0%) translateY(-100%);
+}
+.shiftToRight {
+  transform: translateX(100%);
+}

@@ -1,0 +1,30 @@
+.MuiStepConnector-line {
+  display: none !important;
+}
+
+.MuiPaper-root,
+.MuiStepper-root,
+.MuiStepper-horizontal,
+.MuiPaper-elevation0 {
+  background-color: black;
+  padding: 0 !important;
+}
+.MuiStepConnector-root {
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+.MuiStepConnector-active,
+.MuiStepConnector-completed {
+  background-color: teal;
+}
+.MuiTypography-root,
+.MuiTypography-body1 {
+  color: white !important;
+}
+
+@media screen and (max-width: 420px) {
+  .MuiTypography-root,
+  .MuiTypography-body1 {
+    font-size: 1.3vmax !important;
+  }
+}

@@ -1,0 +1,97 @@
+.banner {
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  z-index: 0;
+}
+.rightBanner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.bannerHeading {
+  font-weight: 700;
+  font-size: 35px;
+  padding: 1rem;
+}
+
+.bannerButton button {
+  padding: 1vmax;
+  background-color: inherit;
+  border: 2px solid whitesmoke;
+  border-radius: 12px;
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.homeHeading {
+  text-align: center;
+  color: teal;
+  margin: 0.5vmax auto;
+  width: max-content;
+  padding: 0.5rem;
+  border-radius: 15px;
+  font-size: 1.7rem;
+  border-bottom: 1px solid teal;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+}
+
+.productCardContainer {
+  width: 270px;
+  margin: 1rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  height: 350px;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 200px;
+}
+
+.top > img {
+  height: 200px;
+  width: 270px;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.bottom {
+  padding: 1rem;
+  height: 40%;
+}
+.name {
+  font-family: monospace;
+  font-size: 1.5rem;
+  margin: 3px 0;
+}
+.reviews {
+  margin: 3px 0;
+}
+.price {
+  font-size: 1.5rem;
+  margin: 3px 0;
+  font-weight: 700;
+}

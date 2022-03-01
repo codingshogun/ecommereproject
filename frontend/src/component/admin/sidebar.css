@@ -1,0 +1,46 @@
+.sidebar {
+  background-color: inherit;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 0;
+  color: white;
+}
+
+.sidebar > a:first-child {
+  padding: 0;
+}
+.sidebar > a > img {
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.sidebar > a > img:hover {
+  filter: drop-shadow(0 0 10px teal);
+}
+.sidebar a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.493);
+  font: 200 1rem "Roboto";
+  padding: 2rem;
+  transition: all 0.5s;
+}
+.sidebar a:hover {
+  color: teal;
+  transform: scale(1.1);
+}
+
+.sidebar a > P {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.sidebar a > p > svg {
+  margin-right: 0.5rem;
+}
+.sidebar > ul {
+  padding: 2rem;
+}
+
+.sidebar > ul > li > div > div:last-child {
+  font-size: 1rem !important;
+}
